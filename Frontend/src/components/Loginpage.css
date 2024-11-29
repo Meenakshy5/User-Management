@@ -1,0 +1,105 @@
+/* Loginpage.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #74b9ff, #a29bfe);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.form-title {
+  font-size: 1.8rem;
+  color: #2d3436;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #636e72;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #dcdde1;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: #0984e3;
+  outline: none;
+  box-shadow: 0 0 4px rgba(9, 132, 227, 0.3);
+}
+
+.submit-button {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #0984e3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #74b9ff;
+}
+
+.error-message {
+  color: #d63031;
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+}
+
+@media (max-width: 768px) {
+  .form-container {
+    padding: 1.5rem;
+  }
+
+  .form-title {
+    font-size: 1.5rem;
+  }
+
+  .form-input {
+    font-size: 0.9rem;
+  }
+
+  .submit-button {
+    font-size: 0.9rem;
+  }
+}
+.login-link {
+  color: #0984e3;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.login-link:hover {
+  color: #74b9ff;
+}
